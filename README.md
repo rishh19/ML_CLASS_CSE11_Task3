@@ -50,3 +50,38 @@ This repository contains a collection of Python scripts/notebooks that demonstra
 Ensure you have Python installed. You will need the following libraries:
 ```bash
 pip install pandas numpy scipy requests selenium openpyxl
+### 2. Selenium Setup
+Method 12 requires Google Chrome. The script uses webdriver.Chrome() in headless mode.
+
+Ensure you have Google Chrome installed.
+
+The code is compatible with modern Selenium (v4+), which handles driver management automatically.
+
+### 3. Execution
+Run the Jupyter Notebook or Python script. The code will generate 9 different files in your directory corresponding to the data collected.
+
+📂 Output Manifest
+After execution, your directory will contain:
+
+store_inventory.db (SQLite Database)
+
+sql_data.csv
+
+employee_data.xlsx / .json
+
+dataset_image.png
+
+beep.wav
+
+sensor_data.csv
+
+review.txt
+
+server.log
+
+sample_video.mp4
+
+dynamic_data.csv
+
+📜 License
+This project is open-source and available for educational purposes.
